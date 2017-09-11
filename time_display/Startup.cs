@@ -23,6 +23,8 @@ namespace time_display
 
             //UseMvc tell ASP.NET Core to look in the Controllers directory for a Controller with Methods and Routing to use!
             app.UseMvc();
+            app.UseStaticFiles();
         }
+
     }
 }
